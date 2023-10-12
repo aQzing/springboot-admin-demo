@@ -9,12 +9,3 @@ spring:
             name: admin
             password: 123456
 
-#management:
-#  endpoint:
-#    health:
-#      show-details: always
-#  endpoints:
-#    web:
-#      exposure:
-#        # 注意：include: ["health", "info"] 但已无效了，请修改
-#        include: health,info

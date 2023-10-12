@@ -40,12 +40,10 @@
             <version>2.6.8</version>
         </dependency>
         <!--安全认证-->
-<!--
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-security</artifactId>
         </dependency>
--->
 
 
 
