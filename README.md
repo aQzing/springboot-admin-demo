@@ -1,2 +1,3 @@
 # springboot-admin-demo
 springboot服务加入健康检查
+注意springboot-admin版本和boot版本一致

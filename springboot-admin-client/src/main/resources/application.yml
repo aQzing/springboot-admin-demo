@@ -1,0 +1,19 @@
+server:
+    port: 8884
+management:
+    endpoint:
+        health:
+            show-details: always
+    endpoints:
+        web:
+            exposure:
+                # 需要暴漏哪些端点
+                include: '*'
+spring:
+    application:
+        name: springboot-admin-client5
+        #springboot-admin-server地址
+    boot:
+        admin:
+            client:
+                url: http://localhost:7777
